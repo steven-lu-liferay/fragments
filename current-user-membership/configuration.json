@@ -1,0 +1,51 @@
+{
+	"fieldSets": [
+		{
+			"label" : "Data Visibility",
+			"fields" : [
+					{
+						"name": "guestUserMsg",
+						"label": "Guest User Message",
+						"description": "Message for non-logged-in users.",
+						"type": "text",
+						"defaultValue": "Please sign in to view your membership details."
+					},
+					{
+						"name": "noItemMsg",
+						"label": "No Item Message",
+						"description": "Message if no user membership found.",
+						"type": "text",
+						"defaultValue": "None"
+					},
+					{
+						"name": "showRoles",
+						"label": "Show Roles",
+						"description": "Show/hide User Roles.",
+						"type": "checkbox",
+						"defaultValue": true
+					},
+					{
+						"name": "showUserGrps",
+						"label": "Show User Groups",
+						"description": "Show/hide User Group Memberships.",
+						"type": "checkbox",
+						"defaultValue": true
+					},
+					{
+						"name": "showAccts",
+						"label": "Show Accounts",
+						"description": "Show/hide Account Memberships.",
+						"type": "checkbox",
+						"defaultValue": true
+					},
+					{
+						"name": "showOrgs",
+						"label": "Show Organizations",
+						"description": "Show/hide Organization Memberships.",
+						"type": "checkbox",
+						"defaultValue": true
+					}
+			]
+		}
+	]
+}

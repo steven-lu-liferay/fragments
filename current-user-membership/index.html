@@ -1,0 +1,52 @@
+<div class="fragment_39">
+[#if themeDisplay.isSignedIn()]
+	<div class="user-membership-frag-container">
+		<div class="user-membership-frag-details mb-3">
+				<div class="align-middle d-inline-block">
+					<div class="h3 user-details-name my-0 py-0">
+						${user.getFullName()}
+					</div>
+				</div>
+		</div>
+		
+		<div class="user-membership-frag-sites">
+			<h5>SITE MEMBERSHIPS</h5>
+			<ul class="user-membership-frag-sites-list">
+				
+			</ul>
+		</div>
+		[#if configuration.showRoles]
+			<div class="user-membership-frag-roles">
+				<h5>ROLES</h5>
+				<ul class="user-membership-frag-roles-list">
+				</ul>
+			</div>
+		[/#if]
+		[#if configuration.showUserGrps]
+			<div class="user-membership-frag-usergroups">
+				<h5>USER GROUPS</h5>
+				<ul class="user-membership-frag-usergroups-list">
+				</ul>
+			</div>
+		[/#if]
+		[#if configuration.showAccts]
+			<div class="user-membership-frag-accts">
+				<h5>ACCOUNTS</h5>
+				<ul class="user-membership-frag-accts-list">
+				</ul>
+			</div>
+		[/#if]
+		[#if configuration.showOrgs]
+			<div class="user-membership-frag-orgs">
+				<h5>ORGANIZATIONS</h5>
+				<ul class="user-membership-frag-orgs-list">
+				</ul>
+			</div>
+		[/#if]
+	</div>
+[#else]
+	<h3>
+		${configuration.guestUserMsg}
+	</h3>
+[/#if]
+</div>

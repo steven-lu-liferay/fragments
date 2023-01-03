@@ -1,0 +1,19 @@
+.fragment_39 {
+}
+
+.user-membership-frag-container .user-details-name {
+	font-size: 25px;
+}
+
+.user-membership-frag-sites .user-membership-frag-site-item {
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--color-brand-primary-darken-3);
+}
+
+.user-membership-frag-sites .user-membership-frag-site-item:hover {
+	text-decoration: bold;
+	font-weight: 500;
+	color: var(--color-brand-primary-lighten-3);
+	font-size: 110%;
+}
